@@ -10,6 +10,8 @@ LABEL com.github.actions.description="Wraps the firebase-tools CLI to enable com
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="gray-dark"
 
+RUN apt-get update && install -y curl
+
 RUN npm install -g firebase-tools
 
 COPY LICENSE README.md /
