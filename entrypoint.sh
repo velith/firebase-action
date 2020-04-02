@@ -24,3 +24,5 @@ if [ -n "$PROJECT_ID" ]; then
 fi
 
 sh -c "firebase $*"
+
+sh -c "rm -rf .firebase"
