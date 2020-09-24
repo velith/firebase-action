@@ -1,6 +1,5 @@
 FROM node:10-slim
 
-LABEL version="1.1.0"
 LABEL repository="https://github.com/w9jds/firebase-action"
 LABEL homepage="https://github.com/w9jds/firebase-action"
 LABEL maintainer="Jeremy Shore <w9jds@github.com>"
