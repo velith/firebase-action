@@ -1,4 +1,4 @@
-FROM node:10-slim
+FROM node:14-slim
 
 LABEL repository="https://github.com/w9jds/firebase-action"
 LABEL homepage="https://github.com/w9jds/firebase-action"
